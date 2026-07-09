@@ -1,0 +1,11 @@
+node_modules/
+dist/
+server-dist/
+.env
+.env.local
+.vite/
+coverage/
+*.log
+tmp/
+*.tmp
+~$*

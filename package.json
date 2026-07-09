@@ -1,0 +1,30 @@
+{
+  "name": "cinco-reinos",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node scripts/dev.mjs",
+    "dev:client": "vite --config vite.config.mjs --host 127.0.0.1",
+    "dev:server": "tsx watch server/index.ts",
+    "build": "npm run build:client && npm run build:server",
+    "build:client": "vite build --config vite.config.mjs",
+    "build:server": "tsc -p tsconfig.server.json",
+    "preview": "node server-dist/index.js",
+    "test": "vitest run",
+    "extract:docx": "python scripts/extract_vocab_from_docx.py"
+  },
+  "dependencies": {
+    "fastify": "^5.4.0",
+    "gsap": "^3.13.0"
+  },
+  "devDependencies": {
+    "@types/node": "^24.0.14",
+    "jsdom": "^26.1.0",
+    "postcss-nested": "^7.0.2",
+    "tsx": "^4.20.3",
+    "typescript": "^5.8.3",
+    "vite": "^7.0.0",
+    "vitest": "^3.2.4"
+  }
+}
