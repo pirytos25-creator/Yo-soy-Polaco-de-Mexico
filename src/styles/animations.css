@@ -1,0 +1,97 @@
+@property --glow-angle {
+  syntax: "<angle>";
+  inherits: false;
+  initial-value: 0deg;
+}
+
+@keyframes flicker {
+  0%,
+  100% {
+    opacity: 1;
+    transform: translateY(0) rotate(-1deg);
+  }
+  50% {
+    opacity: 0.84;
+    transform: translateY(-1px) rotate(1deg);
+  }
+}
+
+@keyframes breathe {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.008);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 50%;
+  }
+  100% {
+    background-position: 200% 50%;
+  }
+}
+
+@keyframes sway {
+  0%,
+  100% {
+    transform: rotate(-1deg);
+  }
+  50% {
+    transform: rotate(1deg);
+  }
+}
+
+@keyframes glow-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 8px var(--zloto);
+  }
+  50% {
+    box-shadow: 0 0 24px var(--zloto-swietliste);
+  }
+}
+
+@keyframes float-up {
+  0% {
+    opacity: 0;
+    transform: translateY(0);
+  }
+  20% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(-60px);
+  }
+}
+
+@keyframes unroll {
+  0% {
+    transform: scaleY(0);
+    transform-origin: top;
+  }
+  100% {
+    transform: scaleY(1);
+  }
+}
+
+@keyframes orbit {
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    scroll-behavior: auto !important;
+    transition-duration: 0.01ms !important;
+  }
+}

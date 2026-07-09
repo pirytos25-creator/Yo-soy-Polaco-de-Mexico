@@ -1,0 +1,68 @@
+:root {
+  --pergamin-jasny: #f5e9d3;
+  --pergamin-sredni: #e8d5b0;
+  --pergamin-ciemny: #c9af83;
+  --atrament: #2b1d14;
+  --atrament-wyblakly: #5d4432;
+  --zloto: #c9992d;
+  --zloto-swietliste: #f0bf4a;
+
+  --r1-primary: #d2691e;
+  --r1-secondary: #f4a261;
+  --r1-accent: #fce38a;
+  --r1-shadow: #6b2a0b;
+
+  --r2-primary: #0f7a5a;
+  --r2-secondary: #2a9d8f;
+  --r2-accent: #b7e4c7;
+  --r2-shadow: #063d2a;
+
+  --r3-primary: #b8621b;
+  --r3-secondary: #d4a574;
+  --r3-accent: #f5deb3;
+  --r3-shadow: #52260b;
+
+  --r4-primary: #6b4c93;
+  --r4-secondary: #a55b7e;
+  --r4-accent: #f2c6d3;
+  --r4-shadow: #2e1a3d;
+
+  --r5-primary: #17a2b8;
+  --r5-secondary: #ffc857;
+  --r5-accent: #e0fbfc;
+  --r5-shadow: #05505c;
+
+  --plomien-zywy: #ff6b35;
+  --plomien-slaby: #f8b84e;
+  --plomien-zgasly: #5c4a3d;
+  --sukces: #52b788;
+  --blad: #c1121f;
+
+  --font-tytul: "Cinzel Decorative", "Cinzel", Georgia, serif;
+  --font-narracja: "Cormorant Garamond", Georgia, serif;
+  --font-ui: Chivo, Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-dialog: "PT Serif", Georgia, serif;
+
+  --skala-mikro: 0.75rem;
+  --skala-drobna: 0.875rem;
+  --skala-bazowa: 1rem;
+  --skala-duza: 1.25rem;
+  --skala-tytul: 2rem;
+  --skala-bohater: 3.5rem;
+
+  --odstep-1: 0.25rem;
+  --odstep-2: 0.5rem;
+  --odstep-3: 1rem;
+  --odstep-4: 1.5rem;
+  --odstep-5: 2.5rem;
+
+  --radius-mikro: 4px;
+  --radius-bazowy: 8px;
+  --radius-duzy: 8px;
+  --radius-pieczec: 999px;
+
+  --cien-delikatny: 0 2px 8px rgb(43 29 20 / 0.15);
+  --cien-gleboki: 0 8px 24px rgb(43 29 20 / 0.35);
+  --cien-swiatla: 0 0 20px rgb(240 191 74 / 0.6);
+  --layout-max: 1180px;
+}
